@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto=optional-2nd-font-Lato&display=swap');
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root {
+    --primary-color: #EDF5FC
+    --secondary-color: #568EA3
+    --accent1-color: #68C3D4
+    --accent2-color: #FFE8D1
+
+    --heading-font: 'Roboto', italic;
+    --paragraph-font: 'Lato',italic;
+
+    --nav-background-color: #1E2EDE;
+    --nav-link-color: #53FF45;
+    --nav-hover-background-color: #6A041D;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color-#EDF5FC);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-#68C3D4);
+}
+
+p {
+    padding: 25px;
+}
+
+nav{
+    background-color: var(--nav-background-color-#1E2EDE);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav {
+    display: block;
+    color: var(--nav-link-color-#53FF45);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color- #53FF45);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color- #6A041D);
+    background-color: var(--nav-hover-background-color-#1E2EDE);
+}
+
+:root {
+    --callout-color: #ff4500;  /* Orangish color for the high visibility */
+}
+
+/* Style the callout box */
+.callout {
+    padding: 20px;
+    margin: 10px 0;
+    background-color: var(--callout-color); /* Use the defined color */
+    color: white; /* White text color for contrast */
+    border-left: 6px solid #222; /* Dark border for emphasis */
+    font-family: 'Merriweather', serif; /* Custom font for the callout */
+}
+
+/* Style the callout header */
+.callout-header {
+    font-size: 1.5em;
+    font-bottom: 10px;
+}
+
+.callout-header {
+    font-size: 1.5em;
+    font-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0077BE; /* River Blue from your color palette */
+}
+
+nav a:hover {
+    color: #FFD700; /*Adventure Yellow for hover state */
+}
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1,h2,h3 {
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+text-decoration: none;
+padding: 10px;
+color: #333;
+}
+
+section {
+    padding: 20px;
+    border-bottom: 1px solid #ccc
+}
+
+footer {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 10px;
+}
