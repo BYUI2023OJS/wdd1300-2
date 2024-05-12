@@ -73,15 +73,10 @@ nav a:hover {
     background-color: var(--callout-color); /* Use the defined color */
     color: white; /* White text color for contrast */
     border-left: 6px solid #222; /* Dark border for emphasis */
-    font-family: 'Merriweather', serif; /* Custom font for the callout */
+    font-family: 'Lato', italic; /* Custom font for the callout */
 }
 
 /* Style the callout header */
-.callout-header {
-    font-size: 1.5em;
-    font-bottom: 10px;
-}
-
 .callout-header {
     font-size: 1.5em;
     font-bottom: 10px;
@@ -113,7 +108,7 @@ nav a:hover {
 }
 
 body {
-    font-family: Roboto, Lato;
+    font-family: Roboto, Italic;
 }
 
 h1,h2,h3 {
