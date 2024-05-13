@@ -79,7 +79,7 @@ nav a:hover {
 /* Style the callout header */
 .callout-header {
     font-size: 1.5em;
-    font-bottom: 10px;
+    font-family: 10px;
 }
 
 nav ul {
@@ -116,23 +116,27 @@ h1,h2,h3 {
 }
 
 nav ul {
+
     list-style: none;
     display: flex;
     justify-content: center;
 }
 
 nav a {
+
 text-decoration: none;
 padding: 10px;
 color: #333;
 }
 
 section {
+
     padding: 20px;
     border-bottom: 1px solid #ccc
 }
 
 footer {
+
     background-color: #f8f8f8;
     text-align: center;
     padding: 10px;
