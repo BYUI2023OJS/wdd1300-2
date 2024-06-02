@@ -89,10 +89,11 @@ aside h2 {
     left: 150px;
 }  
 
-header, footer {
+grid.container header, footer {
     max-width: 840px;
     margin:  auto;
 }
+
 
 nav {
     background-color: steelblue;

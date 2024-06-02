@@ -1,14 +1,82 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
+    <head>    
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Whitewater Rafting Site | Otto Jefferson Supris</title>
-           </head>
-    <body>
-        <header>
-            <style>
-                .hero {
+        <title> Header with CSS Grid</title>
+  <style>
+    header {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      align-items: center;
+      gap: 20px;
+      padding: 10px; 
+    }
+    
+    .logo {
+      grid-column: 1;
+    }
+    
+    .nav-bar {
+      grid-column: 2;
+      text-align: center;
+    }
+    
+    header {
+      background: #333;
+      color: white;
+    }
+    
+    .nav-bar a {
+      color: white;
+      text-decoration: space-evenly;
+      padding: 0 10px;
+    }
+    
+    .nav-bar a:hover {
+      text-decoration: underline;
+    }
+  </style>
+  </head>
+   <body>
+    <header>
+     <div class="logo">
+      <img src="images/logo.png" alt="Rafting Site Logo">
+      </div>   
+    <nav class="nav-bar">
+    <nav class="sociallinks">
+      <head>
+        <style>
+          .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            background-color: rgba(70, 180, 158, 0.763);
+          }
+          .flex-container > div {
+            background-color: #131314;
+            width: 100px;
+            margin: 10px;
+            text-align: center;
+            line-height: 75px;
+            font-size: 30px;
+          }
+        </style>
+        </head>  
+              
+      <body>
+        <div class="flex-container">
+          <div>Home</div>
+          <div>About</div>
+          <div>Trips</div>
+          <div>Contact</div>
+        </div>
+      </body>   
+      </header>
+    </body>     
+  </head>
+          <style>  
+                .hero  {
     position: relative; /* Other styles for your hero image */
 }
 
@@ -66,18 +134,8 @@
 .hero article {
     background-color: rgba(255, 255, 255, 0.7); 
 }
-
-    </style> 
- 
-            <img src="images/logo.png" alt="Rafting Site Logo">
-            <nav>
-                <ul>
-                <a href="#index">Index</a>
-                <a href="#about">About</a>
-                <a href="#trips">Trips</a>
-                <a href="#contact">Contact</a>
-                </ul>   
-            </nav>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+    </style>
+    </header>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
             <main>
                 <div class="hero">
                    <img src="images/hero.image.jpg" alt="Hero Image"> 
@@ -88,41 +146,55 @@
                             The Purpose of a Whitewater Rafting Site is to help customers navigate rough water by supplying them with the necessary equipment and guides they need to safely head down river.
                             It's about providing a adventurous and thrilling experience while ensuring the safety and enjoyment of the participants. To deliever an exciting and memorable outdoor experience, combining nature, exercise and adventure.</p>
                         </article>
-                </div>                
-                <section>            
-                    <h2>History</h2>
+                </div>          
+                <section>
+                  <div>
+                  <div class="flex-container">
+                  <h2>History</h2>
                     <p>The Whitewater Rafting Site was Founded by my Father Mr. Jefferson back in 1990. He was a very hard working man back than and his interest in waters was so great that anyone who wants to see him or chat with him had to go out in the near by rivers to locate him.
                         One of his friend from Europe introduce him to the Rafting Business. All alone he knew there was something great about these rivers and at last his best friend revealed what needs to be done.
                         So, the custodian of the rivers near his village he has total control of all and in 1992, after two years of paper work, the first sign board was raised in the enterance of the our village. In 1993 Whitewater Rafting Site had ten employees and ever since then the number has been growing and now the company has some offices along the cities and towns with over 150 employess.
                         Now the company has been operating for almost three decades and we've just create it's own website and it's ready to launge anytime this year 2024.  
-                        </p>
+                    </p>
+                  </div>      
                 </section>
                 <section>
-                    <h2>Adventure Awaits You</h2>
+                  <div>
+                    <h2>Adventure Awaits You </h2>
+                    <figure> 
+                      <img src="images/rafting1.jpg" alt="Rafting Site Adventure" width="200"/></figure>
+                    <figure>  
+                      <img src="images/rafting2.jpg" alt="Rafting Site Adventure" width="200"/></figure>
+                    <figure>
+                      <img src="images/rafting3.jpg" alt="Rafting Site Adventure" width="200"/></figure>
+                    <figure>
+                      <img src="images/rafting4.png" alt="Rafting Site Adventure" width="250"/></figure>
+                    <figure>
+                      <img src="images/rafting5.jpg" alt="Rafting Site Adventure" width="200"/></figure>    
                     <p>
-                        <ul>
-                        <li><img src="images/rafting1.jpg" alt="Rafting Site Adventure" width="200"></li>
-                        <li><img src="images/rafting2.jpg" alt="Rafting Site Adventure" width="200"></li>
-                        <li><img src="images/rafting3.jpg" alt="Rafting Site Adventure" width="200"></li>
-                        <li><img src="images/rafting4.png" alt="Rafting Site Adventure" width="250"></li>
-                        <li><img src="images/rafting5.jpg" alt="Rafting Site Adventure" width="200"></li>
-                        </ul>  
-                    </p>
-                </section>            
+                      <ul>
+                        <ul><img src="images/rafting1.jpg" alt="Rafting Site Adventure" width="200"></ul>
+                        <ul><img src="images/rafting2.jpg" alt="Rafting Site Adventure" width="200"></ul>
+                        <ul><img src="images/rafting3.jpg" alt="Rafting Site Adventure" width="200"></ul>
+                        <ul><img src="images/rafting4.png" alt="Rafting Site Adventure" width="250"></ul>
+                        <ul><img src="images/rafting5.jpg" alt="Rafting Site Adventure" width="200"></ul>
+                      </ul>
+                    </p>  
+                  </div>
+                </section>        
                 <footer>
-                    <p>© 2024 Whitwater Rafting Site | Otto Jefferson Supris</p>  
-
+                   <p>© 2024 Whitwater Rafting Site | Otto Jefferson Supris</p>
                       <nav class="sociallinks">
                         <a href="https://facebook.com">
-                        <img src="images/facebook.webp" alt="Facebook">
+                          <img src="images/facebook.webp" alt="Facebook">
                         </a>
                         <a href="https://twiter.com">
-                            <img src="images/twitter.webp" alt="Twitter">
+                          <img src="images/twitter.webp" alt="Twitter">
                         </a>
                         <a href="https://instagram.com">
-                            <img src="images/instagram.webp" alt="Instagram">
+                          <img src="images/instagram.webp" alt="Instagram">
                         </a>
-                      </nav>              
+                      </nav>            
                 </footer>
             </main>
         </header>
