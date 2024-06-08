@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML and CSS Quiz</title>
+        <style>
+        body{
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+.quiz-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0,1);
+}
+h1 {
+    text-align: center;
+}
+.question {
+    margin-bottom: 20px;
+}
+.question lable {
+    display: block;
+    margin-bottom: 5px;
+}
+.question input[type="radio"] {
+    margin: 10px;
+}
+.question input[type="text"],
+.question input[type="number"]
+.question textarea,
+.question select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.submit-btn {
+    background-color: #0056b3;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.submit-btn hover {
+    background: #0056b3;
+}     
+        </style>
+    </head>
+    <body>
+        <div class="quiz-container">
+            <h1>HTML & CSS Knowledge Quiz</h1>
+            <form action="/submit-quiz" method="post">
+                <div class="question">
+                    <lable for="q1">Which HTML tag is used to define an internal style sheet</lable>
+                    <input type="radio" id="q1a" name="q1" value="style"><lable for="q1a"><code>&lt;style&gt;</code></lable>
+                    <input type="radio" id="q1b" name="q1" value="script"><lable for="q1b"><code>&lt;script&gt;</code></lable>
+                    <input type="radio" id="q1c" name="q1" value="css"><lable for="q1c"><code>&lt;css&gt;</code></lable> 
+                </div>
+                <div class="question">
+                    <lable for="q2"> Which property is used to change the background color?</lable>
+                    <input type="radio" id="q2a" name="q2" value="color"><lable for="q2a"><code>color</code></lable>
+                    <input type="radio" id="q2b" name="q2" value="background-color"><lable for="q2b"><code>background-color</code></lable>
+                    <input type="radio" id="q2c" name="q2" value="bgcolor"><lable for="q2c"><code>bgcolor</code></lable>
+                </div>
+                <div class="question">
+                    <lable for="q3">What does CSS stand for?</lable>
+                    <input type="radio" id="q3a" name="q3" value="Color Style Sheets"><lable for="q3a">Colorful Style Sheets</lable>
+                    <input type="radio" id="q3b" name="q3" value="Creative Style Sheets"><lable for="q3b">Creative Style Sheets</lable>
+                    <input type="radio" id="q3c" name="q3" value="Cascading Style Sheets"><lable for="q3c">Cascading Style Sheets</lable>
+                </div>
+                <div class="question">
+                    <lable for="q4">Which is the correct HTML element for inserting a line break?</lable>
+                    <input type="radio" id="q4a" name="q4" value="style"><lable for="q4a"><code>&lt;br&gt;</code></lable>
+                    <input type="radio" id="q4b" name="q4" value="script"><lable for="q4b"><code>&lt;lb&gt;</code></lable>
+                    <input type="radio" id="q4c" name="q4" value="css"><lable for="q4c"><code>&lt;break&gt;</code></lable> 
+                </div> 
+                <dic class="question">
+                <lable for="q5">What is the HTML tag used for emphasizing text?</lable>
+                <input type="text" id="q5a" name="q5" required="style"><lable for="q5a"><code>&lt;br&gt;</code></lable>
+                <input type="text" id="q5b" name="q5" required="script"><lable for="q5b"><code>&lt;lb&gt;</code></lable>
+                <input type="text" id="q5c" name="q5" required="css"><lable for="q5c"><code>&lt;break&gt;</code></lable>
+            </div>
+            <div class="questions">
+                <lable for="q6"> Describe the purpose of the CSS 'display' property.</lable>
+                <textarea id="text" id="q6a" name="q6" row="1" required ="Cascading Style Sheets"><code>&lt;br&gt;</code></textarea>
+                <textarea id="q2" name="q2" row="3" required></textarea>
+                <textarea id="q2" name="q2" row="3" required></textarea>
+            </div>
+            <div class="questions">
+                <lable for="q3">Select the correct HTML tag for the largest heading</lable>
+                <select id="q3" name="q3" required>
+                    <option value="h1"> &lt;h1&gt; </option>
+                    <option value="h2"> &lt;h2&gt; </option>
+                    <option value="h3"> &lt;h3&gt; </option>
+                </select>
+            </div>
+            <button type="submit" class="submit-btn">Submit Quiz</button>
+            </form>
+        </div>    
+    </body>
+</html>
